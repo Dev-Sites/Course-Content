@@ -1,0 +1,100 @@
+{
+  "settings": {
+    "name": "Womens Digital Mastery - Course",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "amp-blocks-theme",
+      "title": "BlockPack for AMP",
+      "styling": {
+        "primaryColor": "#005af0",
+        "secondaryColor": "#00dcc0",
+        "successColor": "#64bf46",
+        "infoColor": "#eb49e1",
+        "warningColor": "#ff8f00",
+        "dangerColor": "#ffdc00",
+        "mainFont": "Inter",
+        "display1Font": "Roboto",
+        "display1Size": 4,
+        "display2Font": "Roboto",
+        "display2Size": 3.25,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.2,
+        "display4Font": "Roboto",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#005af0"
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.3.10",
+    "siteFonts": [],
+    "dppsSwitcher": true,
+    "spellingSwitch": true,
+    "site_lang": "en",
+    "imageResize": true,
+    "chatbutton": {},
+    "cssOptimize": true,
+    "witsec-language": "en",
+    "favicon": false,
+    "mbrsiteDomain": "ikhhieqsbp",
+    "canonical-url": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-white-label": true,
+    "pwa-switcher": false,
+    "uniqCompNum": 3,
+    "versionPublish": "5.3.10"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "header02",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <input type=\"image\" title=\"Image\" name=\"bgimage\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\" selected>\n        <input type=\"color\" title=\"Color\" name=\"bgcolor\" value=\"#ffdacd\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"mbr-row\">\n            <div class=\"mbr-col-lg-6 mbr-col-sm-12 mbr-col-md-12\">\n                <div class=\"text-wrapper mbr-m-auto\">\n                    <h1 class=\"mbr-fonts-style align-left mbr-semibold mbr-pb-2 mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Women's Digital Mastery</b></h1>\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style align-left mbr-semibold mbr-pb-3\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Participant Survey: June 2021</h3>\n                    <p class=\"mbr-text align-left mbr-fonts-style mbr-pb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\">We have created the Women's Digital Mastery program to support women in gaining the essential skills, knowledge, training and mentoring to enter the workforce in the digital technology space or scale and pivot their own small business to adapt to new digital opportunities. <br><br>Tanya and David have created this survey to understand your exact situation right now to tailor this program specifically to you and your needs.<br><br>This program is designed to support you in achieving the personal and business goals you have for yourself.&nbsp; &nbsp;</p>\n                    <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Read More</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-image": "url(@bgimage)",
+            "background-size": "~\"calc(50% - 1rem)\"",
+            "background-position": "right",
+            "background-color": "@bgcolor",
+            "@media (max-width: 992px)": {
+              "background-size": "cover",
+              "background-position": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            }
+          },
+          "_cid": "sB19j5Iguc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header02-2"
+        }
+      ]
+    }
+  }
+}
